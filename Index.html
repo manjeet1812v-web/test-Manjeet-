@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>मेरी वेबसाइट</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 50px 20px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>मेरी वेबसाइट में आपका स्वागत है</h1>
+        <p>यह एक सरल वेबसाइट का उदाहरण है।</p>
+        <button id="मेरा-बटन">क्लिक करें</button>
+    </header>
+
+    <script>
+        document.getElementById('मेरा-बटन').addEventListener('click', function() {
+            alert('बटन दबाने के लिए धन्यवाद!');
+        });
+    </script>
+</body>
+</html>
